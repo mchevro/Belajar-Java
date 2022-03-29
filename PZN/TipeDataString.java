@@ -8,12 +8,16 @@ package Tutor_PZN;
  *
  * @author Mahendra Chevro
  */
-public class TipeDataChar {
+public class TipeDataString {
     public static void main(String[] args) {
-        char m = 'm';
-        char c = 'c';
+        String firstname = "Mahendra";
+        String lastname = "Chevro";
         
-        System.out.println(m);
-        System.out.println(c);
+        String fullname = firstname + " " + lastname;
+        
+        System.out.println(firstname);
+        System.out.println(lastname);
+        
+        System.out.println(fullname);
     }
 }

@@ -8,12 +8,12 @@ package Tutor_PZN;
  *
  * @author Mahendra Chevro
  */
-public class TipeDataChar {
+public class TipeDataBoolean {
     public static void main(String[] args) {
-        char m = 'm';
-        char c = 'c';
+        boolean benar = true;
+        boolean salah = false;
         
-        System.out.println(m);
-        System.out.println(c);
+        System.out.println(benar);
+        System.out.println(salah);
     }
 }
